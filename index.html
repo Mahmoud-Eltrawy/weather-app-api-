@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Serif:ital,opsz,wght@0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <div class="logo d-flex justify-content-center align-items-center">
+                <div class="logo-icon">
+                    <img src="images/logo.png">
+                </div>
+                <div class="logo-caption">
+                    <h1>weather</h1>
+                    <span >tagline goes here</span>
+                </div>
+
+            </div>
+
+
+
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item px-1 speciel">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="#">news</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="#">live cameras</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="#">photos</a>
+              </li>
+              <li class="nav-item px-1">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <section>
+        <div class="photo ">
+          <div class="container">
+            
+              <div class="input-fake-box ">
+                <input type="search" placeholder="find your location...." class="form-control" id="search-value">
+                <button id="btn-one">find</button>
+              </div>
+              
+              
+          </div>
+          <div class="container  box">
+            <div class="row">
+              <div class="col-md-4 bg">
+                <div class="heading-bar py-2  w ">
+                  <span id="day" class="px-3">
+                    Sunday
+      
+                  </span>
+                  <div id="month" class="px-3 d-flex justify-content-center align-items-center">
+                    <span id="today-month-num" class="px-1">
+                      20
+                    </span>
+                    <span id="today-month">may</span>
+      
+      
+                  </div>
+                </div>
+                <div class="city my-4">
+                  <span id="city" class="px-3 fs-5 text-white" >
+                    cairo
+      
+                  </span>
+                </div>
+                <div class="Temperature  my-3  d-flex justify-content-center align-items-center text-white      ">
+                 
+      <div class="div d-flex justify-content-between mx-5">
+        <p class="text-white fs-1" id="Temperature">26<sup>o</sup>c</p>
+
+      </div>
+                  
+                  <img src="images/icon-umberella.png" id="img">
+                 
+      
+                </div>
+                <div class="clear">
+                  <span id="is-clear">
+                    clear
+                  </span>
+                </div>
+                <div class="logo d-flex justify-content-center align-items-center text-white gap-3 my-4 ">
+                  <span id="asd">
+                    <img src="images/icon-umberella.png">
+                    
+                    20%
+                  </span>
+                  <span id="zxc">
+                    <img src="images/icon-wind.png">
+                    18km/h
+                  </span>
+                  <span id="cvb">
+                    <img src="images/icon-compass.png">
+                    East
+                  </span>
+                </div>
+              </div>
+              <div class="col-md-4 box-two bg">
+               <div class="header  ">
+                <span id="day-two" class="py-1">
+                  monday
+
+                </span>
+               
+
+               </div>
+               <div class="sun-logo text-center ">
+                <img src="images/113.png" class="py-4" id="day-two-img">
+                <span id="temptwo"class="text-white fs-2">
+                  39.7<sup>o</sup>c
+                </span>
+                <span id="d-smal" class="text-white fs-5">
+                  25.3<sup>o</sup>
+
+                </span>
+                <span id="is-sunny-day" class="py-3" >
+                  sunny
+
+                </span>
+              </div>
+              
+                
+              
+              </div>
+
+              <div class="col-md-4 bg">
+                <div class="header h-day w mx-0">
+                 <span id="day-three" class="py-1">
+                   monday
+ 
+                 </span>
+                
+ 
+                </div>
+                <div class="sun-logo text-center ">
+                 <img src="images/113.png" class="py-4" id="day-three-img">
+                 <span id="tempthree"class="text-white fs-2">
+                   39.7<sup>o</sup>c
+                 </span>
+                 <span id="d-smal-day" class="text-white fs-5">
+                   25.3<sup>o</sup>
+ 
+                 </span>
+                 <span id="is-sunny-day-three" class="py-3">
+                   sunny
+ 
+                 </span>
+               </div>
+               
+                 
+               
+               </div>
+            </div>
+            
+            </div>
+            
+      
+           
+      
+            
+      
+      
+      
+      
+          
+         
+          
+        </div>
+        
+      </section>
+
+
+      <footer class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="input-fake-two ">
+                <input type="search" placeholder="Enter your Email To Subscribe...." class="form-control" id="search">
+                <button id="btn">find</button>
+              </div>
+
+            </div>
+            <div class="col-md-4">
+              <div class="icons d-flex justify-content-center align-items-center gap-2 my-2">
+                <div class="icon-one icoon rounded-5">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                   </a>
+                </div>
+                <div class="icon-two icoon rounded-5">
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>                  </a>
+                </div>
+                <div class="icon-three icoon rounded-5">
+                  <a href="#">
+                    <i class="fa-brands fa-google"></i>                  </a>
+                </div>
+                <div class="icon-four icoon rounded-5">
+                  <a href="#">
+                    <i class="fa-brands fa-pinterest"></i>                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="col-md-6 text-white py-4">
+              <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+          </div>
+
+        </div>
+      </footer>
+      
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
